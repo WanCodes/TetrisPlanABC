@@ -19,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* TetrisPlanABCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TetrisPlanABCTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B00920BC1C10A08EECFA210F /* libPods-TetrisPlanABC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045102C6AAA8E9433F117CF8 /* libPods-TetrisPlanABC.a */; };
+		BEE371E925E474330090E56F /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = BEE371E825E474330090E56F /* Fonts */; };
 		C2683C392D004ABBF81FD9C2 /* libPods-TetrisPlanABC-TetrisPlanABCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A42D80A39567BA3A757619 /* libPods-TetrisPlanABC-TetrisPlanABCTests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		7EC664EA1E6DAD47EBD02CF6 /* Pods-TetrisPlanABC-TetrisPlanABCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetrisPlanABC-TetrisPlanABCTests.debug.xcconfig"; path = "Target Support Files/Pods-TetrisPlanABC-TetrisPlanABCTests/Pods-TetrisPlanABC-TetrisPlanABCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TetrisPlanABC/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8503C4B14E5184A12F7A9F /* Pods-TetrisPlanABC-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetrisPlanABC-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TetrisPlanABC-tvOS/Pods-TetrisPlanABC-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BEE371E825E474330090E56F /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		D8EA14B4C2DC56054165657A /* Pods-TetrisPlanABC-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TetrisPlanABC-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TetrisPlanABC-tvOSTests/Pods-TetrisPlanABC-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				BEE371E825E474330090E56F /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -340,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE371E925E474330090E56F /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
