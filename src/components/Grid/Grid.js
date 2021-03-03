@@ -45,7 +45,7 @@ export default class Grid extends Component {
     let grid = createGrid(w, h);
     this.grid = grid;
     this.createGridRef(grid);
-    this.setState({grid}, () => {});
+    this.setState({grid}, () => ({}));
   }
 
   createGridRef(grid) {

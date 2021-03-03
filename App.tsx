@@ -11,7 +11,7 @@ import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
 
 import Board from './src/screens/Board/Board';
 
-const App: () => React$Node = () => {
+const App: React.FC = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />

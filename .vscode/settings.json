@@ -1,0 +1,12 @@
+{
+    "http.proxyAuthorization": null,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "bracketPairColorizer.activeScopeCSS": [
+    
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ]
+}

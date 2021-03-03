@@ -2,7 +2,7 @@ import React from 'react';
 import {View, StyleSheet} from 'react-native';
 import Grid from '../../components/Grid/Grid';
 
-const Board = () => {
+const Board: React.FC = () => {
   return (
     <View style={styles.container}>
       <Grid w={10} h={24} />
@@ -10,7 +10,7 @@ const Board = () => {
   );
 };
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
