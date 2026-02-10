@@ -1,7 +1,7 @@
 {
     "http.proxyAuthorization": null,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": "explicit"
     },
     "bracketPairColorizer.activeScopeCSS": [
     
